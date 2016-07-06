@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0C44D31ECA0863B308F4F0DE /* libPods-QRCode-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0E85122734E4303542F8AB /* libPods-QRCode-Demo.a */; };
+		313C32251D2CDF0700C26953 /* ALQRCodeScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C32241D2CDF0700C26953 /* ALQRCodeScanController.m */; };
+		313C32281D2CE0AE00C26953 /* MyScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C32271D2CE0AE00C26953 /* MyScanController.m */; };
+		313C323A1D2CF03900C26953 /* ALQRCodeScanController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 313C32391D2CF03900C26953 /* ALQRCodeScanController.bundle */; };
 		318360861D2B5A4600933281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 318360851D2B5A4600933281 /* main.m */; };
 		318360891D2B5A4600933281 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 318360881D2B5A4600933281 /* AppDelegate.m */; };
-		3183608C1D2B5A4600933281 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3183608B1D2B5A4600933281 /* ViewController.m */; };
-		3183608F1D2B5A4600933281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3183608D1D2B5A4600933281 /* Main.storyboard */; };
 		318360911D2B5A4600933281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318360901D2B5A4600933281 /* Assets.xcassets */; };
 		318360941D2B5A4600933281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318360921D2B5A4600933281 /* LaunchScreen.storyboard */; };
 		3183609F1D2B5A4600933281 /* QRCode_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3183609E1D2B5A4600933281 /* QRCode_DemoTests.m */; };
 		318360AA1D2B5A4600933281 /* QRCode_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 318360A91D2B5A4600933281 /* QRCode_DemoUITests.m */; };
-		318360B91D2B5BB500933281 /* ALQRCodeScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 318360B81D2B5BB500933281 /* ALQRCodeScanController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +38,15 @@
 
 /* Begin PBXFileReference section */
 		2DCF94BF8502CAC0277E2B99 /* Pods-QRCode-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCode-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRCode-Demo/Pods-QRCode-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		313C32231D2CDF0700C26953 /* ALQRCodeScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALQRCodeScanController.h; sourceTree = "<group>"; };
+		313C32241D2CDF0700C26953 /* ALQRCodeScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALQRCodeScanController.m; sourceTree = "<group>"; };
+		313C32261D2CE0AE00C26953 /* MyScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScanController.h; sourceTree = "<group>"; };
+		313C32271D2CE0AE00C26953 /* MyScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScanController.m; sourceTree = "<group>"; };
+		313C32391D2CF03900C26953 /* ALQRCodeScanController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ALQRCodeScanController.bundle; sourceTree = "<group>"; };
 		318360811D2B5A4600933281 /* QRCode-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QRCode-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		318360851D2B5A4600933281 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		318360871D2B5A4600933281 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		318360881D2B5A4600933281 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3183608A1D2B5A4600933281 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3183608B1D2B5A4600933281 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3183608E1D2B5A4600933281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		318360901D2B5A4600933281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		318360931D2B5A4600933281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		318360951D2B5A4600933281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,8 +56,6 @@
 		318360A51D2B5A4600933281 /* QRCode-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QRCode-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		318360A91D2B5A4600933281 /* QRCode_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCode_DemoUITests.m; sourceTree = "<group>"; };
 		318360AB1D2B5A4600933281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		318360B71D2B5BB500933281 /* ALQRCodeScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALQRCodeScanController.h; sourceTree = "<group>"; };
-		318360B81D2B5BB500933281 /* ALQRCodeScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALQRCodeScanController.m; sourceTree = "<group>"; };
 		9859C3B6581AC66A30772C8D /* Pods-QRCode-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCode-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRCode-Demo/Pods-QRCode-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		AF0E85122734E4303542F8AB /* libPods-QRCode-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRCode-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,9 +86,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		313C32221D2CDF0700C26953 /* ALQRCodeScanController */ = {
+			isa = PBXGroup;
+			children = (
+				313C32231D2CDF0700C26953 /* ALQRCodeScanController.h */,
+				313C32241D2CDF0700C26953 /* ALQRCodeScanController.m */,
+				313C32391D2CF03900C26953 /* ALQRCodeScanController.bundle */,
+			);
+			name = ALQRCodeScanController;
+			path = ../ALQRCodeScanController;
+			sourceTree = "<group>";
+		};
 		318360781D2B5A4600933281 = {
 			isa = PBXGroup;
 			children = (
+				313C32221D2CDF0700C26953 /* ALQRCodeScanController */,
 				318360831D2B5A4600933281 /* QRCode-Demo */,
 				3183609D1D2B5A4600933281 /* QRCode-DemoTests */,
 				318360A81D2B5A4600933281 /* QRCode-DemoUITests */,
@@ -113,11 +125,8 @@
 			children = (
 				318360871D2B5A4600933281 /* AppDelegate.h */,
 				318360881D2B5A4600933281 /* AppDelegate.m */,
-				3183608A1D2B5A4600933281 /* ViewController.h */,
-				3183608B1D2B5A4600933281 /* ViewController.m */,
-				318360B71D2B5BB500933281 /* ALQRCodeScanController.h */,
-				318360B81D2B5BB500933281 /* ALQRCodeScanController.m */,
-				3183608D1D2B5A4600933281 /* Main.storyboard */,
+				313C32261D2CE0AE00C26953 /* MyScanController.h */,
+				313C32271D2CE0AE00C26953 /* MyScanController.m */,
 				318360901D2B5A4600933281 /* Assets.xcassets */,
 				318360921D2B5A4600933281 /* LaunchScreen.storyboard */,
 				318360951D2B5A4600933281 /* Info.plist */,
@@ -277,8 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				318360941D2B5A4600933281 /* LaunchScreen.storyboard in Resources */,
+				313C323A1D2CF03900C26953 /* ALQRCodeScanController.bundle in Resources */,
 				318360911D2B5A4600933281 /* Assets.xcassets in Resources */,
-				3183608F1D2B5A4600933281 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,10 +360,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3183608C1D2B5A4600933281 /* ViewController.m in Sources */,
+				313C32251D2CDF0700C26953 /* ALQRCodeScanController.m in Sources */,
 				318360891D2B5A4600933281 /* AppDelegate.m in Sources */,
 				318360861D2B5A4600933281 /* main.m in Sources */,
-				318360B91D2B5BB500933281 /* ALQRCodeScanController.m in Sources */,
+				313C32281D2CE0AE00C26953 /* MyScanController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,14 +399,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3183608D1D2B5A4600933281 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3183608E1D2B5A4600933281 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		318360921D2B5A4600933281 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
